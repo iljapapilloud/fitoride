@@ -1,5 +1,5 @@
 # fitoride
-Einfache für das statische Bike-Fitting Anwendung im Rahmen von JugendForscht. 
+Einfache für das statische Bike-Fitting Anwendung im Rahmen von JugendForscht (2023). 
 
 Auf der Grundlage von einigen Messung liefert die Anwendung die notwendigen Parameter für ein zuverlässiges Bike-Fitting.
 
