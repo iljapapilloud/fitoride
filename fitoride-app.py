@@ -33,9 +33,9 @@ if button == 'Etape 1':
         st.write("\nVotre hauteur de selle en cm ne doit pas être supérieure à:  ", sattelhoehemax)
 
     with col2:
-        st.image("/home/cpsoz/Downloads/fitoride-main/Beinc.png",width=150, caption='Longeur interne de la jambe')
-        st.image("/home/cpsoz/Downloads/fitoride-main/bike3ac.png",width=150, caption='Angle tube de selle/droite')
-        st.image("/home/cpsoz/Downloads/fitoride-main/bike2ac.png",width=150, caption='Hauteur de selle axe pédalier/sommet selle')
+        st.image("Beinc.png",width=150, caption='Longeur interne de la jambe')
+        st.image("bike3ac.png",width=150, caption='Angle tube de selle/droite')
+        st.image("bike2ac.png",width=150, caption='Hauteur de selle axe pédalier/sommet selle')
 
 if button == 'Etape 2':
     st.markdown("<h4 style='text-align: left; color: YellowGreen;'>Selle en avant/en arrière</h4>", unsafe_allow_html=True)
@@ -53,7 +53,7 @@ if button == 'Etape 2':
 
 
     with col2:
-        st.image("/home/cpsoz/Downloads/fitoride-main/Sattelc.png",width=200, caption='Selle en avant/en arrière, centre(Z), gravité(G)')
+        st.image("Sattelc.png",width=200, caption='Selle en avant/en arrière, centre(Z), gravité(G)')
 
 if button == 'Etape 3':
     st.markdown("<h4 style='text-align: left; color: YellowGreen;'>Haut du corps</h4>", unsafe_allow_html=True)
@@ -89,4 +89,4 @@ if button == 'Etape 3':
         st.write("... du centre de la selle au centre du guidon, cette distance en cm ne devrait pas être inférieure à:", armlenkersmax)
 
     with col2:
-        st.image("/home/cpsoz/Downloads/fitoride-main/armc.png",width=200,caption='Longueur du bras')
+        st.image("armc.png",width=200,caption='Longueur du bras')
