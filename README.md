@@ -5,4 +5,4 @@ Auf der Grundlage von einigen Messung liefert die Anwendung die notwendigen Para
 
 Die Anwendung kann für Frauen und Männer ab 15 Jahre alt verwendet werden. 
 
-Die Anwendung funktioniert für Windows, Mac, Linux und Android.
+Die Anwendung funktioniert für Windows, Linux und Android.
