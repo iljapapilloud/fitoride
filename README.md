@@ -15,4 +15,4 @@ Linux: https://cp.soziologie.uni-halle.de/Fitoride-Linux-64bit.zip
 
 Android: https://cp.soziologie.uni-halle.de/Fitoride-Android.zip 
 
-Beim nicht-kompatiblen Hardware kann die folgende Web-App verwendet werden: https://iljapapilloud-fitoride-fitoride-app-2ekp1t.streamlit.app/
+Beim nicht-kompatiblen Hardware kann die folgende Web-App verwendet werden (App "wecken", wenn sie eingeschlafen ist): https://iljapapilloud-fitoride-fitoride-app-2ekp1t.streamlit.app/
