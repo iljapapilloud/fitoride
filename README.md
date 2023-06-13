@@ -14,3 +14,5 @@ Windows 32 bit: https://cp.soziologie.uni-halle.de/Fitoride-Windows-32bit.zip
 Linux: https://cp.soziologie.uni-halle.de/Fitoride-Linux-64bit.zip 
 
 Android: https://cp.soziologie.uni-halle.de/Fitoride-Android.zip 
+
+Beim nicht-kompatiblen Hardware kann die folgende Web-App verwendet werden: https://iljapapilloud-fitoride-fitoride-app-2ekp1t.streamlit.app/
