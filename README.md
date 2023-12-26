@@ -5,12 +5,10 @@ Auf der Grundlage von biophysischen Angaben und die Anwendung von Formeln aus de
 
 Die Anwendung funktioniert für folgende Platformen: 
 
-Windows 64 bit: https://cp.soziologie.uni-halle.de/Fitoride-Windows-64bit.zip 
-
-Windows 32 bit: https://cp.soziologie.uni-halle.de/Fitoride-Windows-32bit.zip
-
 Linux: https://cp.soziologie.uni-halle.de/Fitoride-Linux-64bit.zip 
 
 Android: https://cp.soziologie.uni-halle.de/Fitoride-Android.zip 
 
-Beim nicht-kompatiblen Hardware (MAC/IOS) kann die folgende Web-App verwendet werden (App "wecken", wenn sie eingeschlafen ist): https://iljapapilloud-fitoride-fitoride-app-2ekp1t.streamlit.app/
+Der GD-Script Code ist vorhanden. Damit können Apps. für Windows und Mac/IOS hergestellt werden.
+
+Beim nicht-kompatiblen Hardware kann die folgende Web-App verwendet werden (App "wecken", wenn sie eingeschlafen ist): https://iljapapilloud-fitoride-fitoride-app-2ekp1t.streamlit.app/
