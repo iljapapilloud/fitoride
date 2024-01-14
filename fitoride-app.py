@@ -12,7 +12,7 @@ st.markdown("<h1 style='text-align: center; color: YellowGreen;'>Fitoride</h1>",
 st.markdown("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys")
 
 with st.sidebar:
-	col1, mid, col2 = st.beta_columns([1,1,20])
+	col1, col2 = st.columns(2)
 	with col1:
 		st.image('logo.png', width=180)
 	with col2:
