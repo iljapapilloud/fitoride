@@ -26,10 +26,10 @@ with st.sidebar:
   #st.image("logo.png", width=150)
   #st.markdown("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys")
 
-button = st.sidebar.radio("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys.\n\n **Do the Bike-Fitting step by step, from first step onwards. At each step, apply the result before going to the next step**", ('Etape 1', 'Etape 2', 'Etape 3'))
+button = st.sidebar.radio("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys.\n\n Do the Bike-Fitting step by step, from first step onwards. At each step, apply the result before going to the next step", ('Step 1', 'Step 2', 'Step 3'))
 #button2 = st.sidebar.radio("**PF-I Gesamt**", ('Topics', 'Trends'))
 
-if button == 'Etape 1':
+if button == 'Step 1':
     st.markdown("<h4 style='text-align: left; color: YellowGreen;'>Saddle height</h4>", unsafe_allow_html=True)
 
     col1, col2 = st.columns(2)
@@ -52,7 +52,7 @@ if button == 'Etape 1':
         st.image("bike3ac.png",width=150, caption='Angle saddle tube/imaginary straight line')
         st.image("bike2ac.png",width=150, caption='Saddle height from middle of the chainring/bottom of saddle')
 
-if button == 'Etape 2':
+if button == 'Step 2':
     st.markdown("<h4 style='text-align: left; color: YellowGreen;'>Saddle forth/back</h4>", unsafe_allow_html=True)
 
     col1, col2 = st.columns(2)
@@ -70,7 +70,7 @@ if button == 'Etape 2':
     with col2:
         st.image("Sattelc.png",width=200, caption='Saddle forth/back, centre(Z), gravity(G)')
 
-if button == 'Etape 3':
+if button == 'Step 3':
     st.markdown("<h4 style='text-align: left; color: YellowGreen;'>Torso and arms</h4>", unsafe_allow_html=True)
 
     col1, col2 = st.columns(2)
