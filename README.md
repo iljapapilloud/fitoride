@@ -26,3 +26,6 @@ need to have Godot 3.x installed on your computer. It does not work
 with Godot 4.x.
 
 For non-compatible hardware (f.ex. IPhone), the following web app can be used ("wake up" the app if it has fallen asleep): https://iljapapilloud-fitoride-fitoride-app-2ekp1t.streamlit.app/
+
+You can read the report on the findings in the document 
+"IljaPapilloud-VNU_Schriftliche_Arbeit.pdf" (in German). 
