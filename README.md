@@ -8,7 +8,7 @@ reliable bike-fitting in few steps.
 
 The application can be used for women and men aged 15 and over. 
 
-The application works for the following platforms: 
+The application works with the following platforms: 
 
 **Windows 32 bit**: Fitorid-Windows-32bit.zip (unzip and install the exe file)
 
