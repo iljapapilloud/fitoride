@@ -3,13 +3,16 @@ import math
 
 ### Streamlit dashboard mit multipages -- hiermit benutzen wir radio buttons und if Bedingungen, um die Seiten zu simulieren
 
-st.set_page_config(layout="wide") # um die Webseite breiter zu machen
-
-#st.title("Vorstellung erster Ergebnisse") # Haupttitle nicht im Zentrum der Seite
-
-#st.markdown("<h1 style='text-align: center; color: YellowGreen;'>Fitoride</h1>", unsafe_allow_html=True) # Jetzt Haupttitle zentriert
-
-#st.markdown("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys")
+st.set_page_config(layout="wide")
+st.markdown("""
+<style>
+.big-font {
+    font-size:300px !important;
+    float: left; 
+    color: YellowGreen;
+}
+</style>
+""", unsafe_allow_html=True)
 
 with st.sidebar:
 	col1, col2 = st.columns(2)
@@ -19,15 +22,9 @@ with st.sidebar:
 		st.markdown('')
 		st.markdown('')
 		st.markdown('')
-		st.markdown("<h1 style='float: left; color: YellowGreen;'>Fitoride</h1>", unsafe_allow_html=True)
-	
-	
-  #st.markdown("<h1 style='text-align: center; color: YellowGreen;'>Fitoride</h1>", unsafe_allow_html=True) # 
-  #st.image("logo.png", width=150)
-  #st.markdown("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys")
+		st.markdown('<p class="big-font">Fitoride</p>', unsafe_allow_html=True)
 
 button = st.sidebar.radio("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys.\n\n Do the Bike-Fitting step by step, from first step onwards. At each step, apply the result before going to the next step", ('Step 1', 'Step 2', 'Step 3'))
-#button2 = st.sidebar.radio("**PF-I Gesamt**", ('Topics', 'Trends'))
 
 if button == 'Step 1':
     st.markdown("<h4 style='text-align: left; color: YellowGreen;'>Saddle height</h4>", unsafe_allow_html=True)
