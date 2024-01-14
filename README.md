@@ -22,6 +22,8 @@ The application works with the following platforms:
 
 **Android**: Fitoride-Android.zip (put both files on your mobile Android device and clic on "Fitoride.apk" to install)
 
+**When you install the app or the software, you might get a security warning; when you are there, go to further details and clic on install**.
+
 The Godot-Project is available as "Fitoride-Godot3-Project.zip". It can 
 be used to create the app for your own mobile phone or OS system. You 
 need to have Godot 3.x installed on your computer. It does not work 
