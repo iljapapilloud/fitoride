@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 st.markdown("""
 <style>
 .big-font {
-    font-size:300px !important;
+    font-size:90px !important;
     float: left; 
     color: YellowGreen;
 }
