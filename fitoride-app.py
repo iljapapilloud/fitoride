@@ -12,7 +12,9 @@ st.markdown("<h1 style='text-align: center; color: YellowGreen;'>Fitoride</h1>",
 st.markdown("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys")
 
 with st.sidebar:
+  st.markdown("<h1 style='text-align: center; color: YellowGreen;'>Fitoride</h1>", unsafe_allow_html=True) # 
   st.image("logo.png", width=150)
+  st.markdown("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys")
 
 button = st.sidebar.radio("**Do the Bike-Fitting step by step, from first step onwards. At each step, apply the result before going to the next step**", ('Etape 1', 'Etape 2', 'Etape 3'))
 #button2 = st.sidebar.radio("**PF-I Gesamt**", ('Topics', 'Trends'))
