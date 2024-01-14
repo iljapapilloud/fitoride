@@ -1,19 +1,28 @@
-# Fitoride
+# Fitoride -- Free app and software for bike-fitting
 
-Einfache für das statische Bike-Fitting Anwendung im Rahmen von JugendForscht (2023). 
+Simple app and software for the static bike fitting as part of JugendForscht (2023). 
 
-Auf der Grundlage von biophysischen Angaben und die Anwendung von Formeln aus der wissenschaftlichen Literatur zum Bike-Fitting liefert die Anwendung die notwendigen Parametern für ein zuverlässiges Bike-Fitting. Die Anwendung kann für Frauen und Männer ab 15 Jahre verwendet werden. 
+Based on biophysical data and the review of the scientific literature 
+on bike-fitting, the application provides the necessary parameters for 
+reliable bike-fitting in few steps. 
 
-Die Anwendung funktioniert für folgende Platformen: 
+The application can be used for women and men aged 15 and over. 
 
-Windows: Fitorid.exe
+The application works for the following platforms: 
 
-MacOS: Fitorid_MacOS.zip (unstable)
+**Windows 32 bit**: Fitorid-Windows-32bit.zip (unzip and install the exe file)
 
-Linux: Fitoride.x86_64 
+**Windows 64 bit**: Fitorid-Windows-64bit.zip (unzip and install the exe file)
 
-Android: Fitoride.apk 
+**MacOS**: Fitorid_MacOS.zip (unstable; follow the install guide here: https://docs.godotengine.org/en/stable/tutorials/export/running_on_macos.html)
 
-Der GD-Script Code ist vorhanden. Damit kann die App für das eigene Handy oder OS-System hergestellt werden.
+**Linux**: Fitoride-Linux-64bit.zip (unzip and clic on the file Fitoride.x86_64)
 
-Beim nicht-kompatiblen Hardware kann die folgende Web-App verwendet werden (App "wecken", wenn sie eingeschlafen ist): https://iljapapilloud-fitoride-fitoride-app-2ekp1t.streamlit.app/
+**Android**: Fitoride.apk (put on your mobile Android device and clic on the app to install)
+
+The Godot-Project is available as "Fitoride-Godot3-Project.zip". It can 
+be used to create the app for your own mobile phone or OS system. You 
+need to have Godot 3.x installed on your computer. It does not work 
+with Godot 4.x.
+
+For non-compatible hardware (f.ex. IPhone), the following web app can be used ("wake up" the app if it has fallen asleep): https://iljapapilloud-fitoride-fitoride-app-2ekp1t.streamlit.app/
