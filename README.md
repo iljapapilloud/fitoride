@@ -20,7 +20,7 @@ The application works with the following platforms:
 
 **Linux**: Fitoride-Linux-64bit.zip (unzip and clic on the file Fitoride.x86_64)
 
-**Android**: Fitoride-Android.zip (put both files on your mobile Android device and clic on "Fitoride.apk" to install)
+**Android**: Fitoride-Android.zip (unzip on your mobile Android device and clic on "Fitoride.apk" to install)
 
 **When you install the app or the software, you might get a security warning; when you are there, go to further details and clic on install**.
 
