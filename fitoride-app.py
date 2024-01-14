@@ -91,14 +91,14 @@ if button == 'Step 3':
         armlenkersmin = (float(armdown)/math.sin(math.radians(40)))*math.sin(math.radians(100))
         armlenkersmax = (float(armdown)/math.sin(math.radians(50)))*math.sin(math.radians(110))
 
-        st.markdown("If you want to drive with outstreched arms, then: ")
+        st.markdown("**Drive with outstreched arms**: ")
 
         st.write("a) the optimal distance from the middle of the saddle to the middle of the handlebars is (in cm):", armlenkeropt)
         st.write("b) the distance from the middle of the saddle to the middle of the handlebars (in cm) should not exceed:", armlenkermin)
         st.write("c) the distance from the middle of the saddle to the middle of the handlebars (in cm) should not be less than:", armlenkermax)
 
 
-        st.markdown("If you prefer driving with arms less outstreched, then: ")
+        st.markdown("**Drive with arms less outstreched**: ")
 
         st.write("a) the optimal distance from the middle of the saddle to the middle of the handlebars is (in cm):", armlenkersopt)
         st.write("b) the distance from the middle of the saddle to the middle of the handlebars (in cm) should not exceed:", armlenkersmin)
