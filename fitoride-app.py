@@ -19,7 +19,7 @@ with st.sidebar:
 	with col1:
 		st.image('logo.png', width=180)
 	with col2:
-		st.markdown('')
+		#st.markdown('')
 		st.markdown('')
 		st.markdown('')
 		st.markdown('<p class="big-font">Fitoride</p>', unsafe_allow_html=True)
