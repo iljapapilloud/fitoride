@@ -16,7 +16,7 @@ with st.sidebar:
 	with col1:
 		st.image('logo.png', width=180)
 	with col2:
-		st.markdown("<h1 style='text-align: center; color: YellowGreen;'>Fitoride</h1>", unsafe_allow_html=True)
+		st.markdown("<h1 style='float: left; color: YellowGreen;'>Fitoride</h1>", unsafe_allow_html=True)
 	
 	
   #st.markdown("<h1 style='text-align: center; color: YellowGreen;'>Fitoride</h1>", unsafe_allow_html=True) # 
