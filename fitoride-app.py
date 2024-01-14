@@ -25,6 +25,9 @@ with st.sidebar:
 
 button = st.sidebar.radio("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys.\n\n Do the Bike-Fitting step by step, from first step onwards. At each step, apply the result before going to the next step", ('Step 1', 'Step 2', 'Step 3'))
 
+with st.sidebar:
+	st.download_button(label="Download for Windows", Fitorid.exe)
+
 if button == 'Step 1':
     st.markdown("<h4 style='text-align: left; color: YellowGreen;'>Saddle height</h4>", unsafe_allow_html=True)
 
