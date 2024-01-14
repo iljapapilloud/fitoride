@@ -9,7 +9,7 @@ st.set_page_config(layout="wide") # um die Webseite breiter zu machen
 
 #st.markdown("<h1 style='text-align: center; color: YellowGreen;'>Fitoride</h1>", unsafe_allow_html=True) # Jetzt Haupttitle zentriert
 
-st.markdown("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys")
+#st.markdown("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys")
 
 with st.sidebar:
 	col1, col2 = st.columns(2)
