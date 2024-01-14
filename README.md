@@ -1,5 +1,7 @@
 # Fitoride -- Free app and software for bike-fitting
 
+![Scan to get to the web app](qr-code.png)
+
 Simple app and software for the static bike fitting as part of JugendForscht (2023). 
 
 Based on biophysical data and the review of the scientific literature 
@@ -18,7 +20,7 @@ The application works with the following platforms:
 
 **Linux**: Fitoride-Linux-64bit.zip (unzip and clic on the file Fitoride.x86_64)
 
-**Android**: Fitoride.apk (put on your mobile Android device and clic on the app to install)
+**Android**: Fitoride-Android.zip (put both files on your mobile Android device and clic on "Fitoride.apk" to install)
 
 The Godot-Project is available as "Fitoride-Godot3-Project.zip". It can 
 be used to create the app for your own mobile phone or OS system. You 
