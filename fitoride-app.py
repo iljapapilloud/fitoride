@@ -7,7 +7,7 @@ st.set_page_config(layout="wide") # um die Webseite breiter zu machen
 
 #st.title("Vorstellung erster Ergebnisse") # Haupttitle nicht im Zentrum der Seite
 
-st.markdown("<h1 style='text-align: center; color: YellowGreen;'>Fitoride</h1>", unsafe_allow_html=True) # Jetzt Haupttitle zentriert
+#st.markdown("<h1 style='text-align: center; color: YellowGreen;'>Fitoride</h1>", unsafe_allow_html=True) # Jetzt Haupttitle zentriert
 
 st.markdown("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys")
 
@@ -16,6 +16,7 @@ with st.sidebar:
 	with col1:
 		st.image('logo.png', width=180)
 	with col2:
+		st.markdown('')
 		st.markdown("<h1 style='float: left; color: YellowGreen;'>Fitoride</h1>", unsafe_allow_html=True)
 	
 	
@@ -23,7 +24,7 @@ with st.sidebar:
   #st.image("logo.png", width=150)
   #st.markdown("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys")
 
-button = st.sidebar.radio("**Do the Bike-Fitting step by step, from first step onwards. At each step, apply the result before going to the next step**", ('Etape 1', 'Etape 2', 'Etape 3'))
+button = st.sidebar.radio("Static Bike-Fitting unisex 15-75 years old. You nead a measuring tape, a book, and some Allen keys. **Do the Bike-Fitting step by step, from first step onwards. At each step, apply the result before going to the next step**", ('Etape 1', 'Etape 2', 'Etape 3'))
 #button2 = st.sidebar.radio("**PF-I Gesamt**", ('Topics', 'Trends'))
 
 if button == 'Etape 1':
