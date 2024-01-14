@@ -15,7 +15,7 @@ with st.sidebar:
 	col1, mid, col2 = st.beta_columns([1,1,20])
 	with col1:
 		st.image('logo.png', width=180)
-    with col2:
+	with col2:
 		st.markdown("<h1 style='text-align: center; color: YellowGreen;'>Fitoride</h1>", unsafe_allow_html=True)
 	
 	
